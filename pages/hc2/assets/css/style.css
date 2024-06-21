@@ -1,10 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-a{
-    text-decoration: none;
-    color: inherit;
-}
+
 body {
     background-image: url(https://i.pinimg.com/originals/37/8b/83/378b831d110918525ff640a5e73c829b.png);
     background-repeat: no-repeat;
@@ -18,8 +15,8 @@ section.home {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: pop;
-    color: white;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .box{
@@ -51,7 +48,7 @@ section.home {
 
 #box2 h1{
     font-family: 'Playwrite MX', cursive;
-    color : white;
+    color : rgb(0, 0, 0);
     font-size: 70px;
     position: relative;
     top: 25%;
@@ -69,8 +66,8 @@ section.home {
     padding: 10px;
     margin: 15px;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    border: 5px white solid;
+    color: rgb(0, 0, 0);
+    border: 5px rgb(0, 0, 0) solid;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0);
     backdrop-filter: blur(4px);
@@ -81,13 +78,13 @@ section.home {
  .home button:hover{
     transform: scale(1.2);
     backdrop-filter: blur(0px);
-    border: 3px white solid;
+    border: 3px rgb(0, 0, 0) solid;
  }
 
  .home button:active{
     transform: scale(1.0);
-    background-color: white;
-    border: 5px white solid;
+    background-color: rgb(255, 255, 255);
+    border: 5px rgb(0, 0, 0) solid;
     color: rgb(107, 95, 160);
  }
 
@@ -96,8 +93,8 @@ section.home {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    color: white;
-    border: 5px white solid;
+    color: rgb(0, 0, 0);
+    border: 5px rgb(0, 0, 0) solid;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0);
     backdrop-filter: blur(4px);
