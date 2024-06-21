@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/75/8a/53/758a53c43c93ac7521468f45803ee921.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.home {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.home button{
+    padding: 10px;
+    margin: 15px;
+    font-family: MC;
+    color: white;
+    border: 5px white solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(4px);
+    transition: .1s;
+    font-size: 14px;
+ }
+
+ .home button:hover{
+    transform: scale(1.2);
+    backdrop-filter: blur(0px);
+    border: 3px white solid;
+ }
+
+ .home button:active{
+    transform: scale(1.0);
+    background-color: white;
+    border: 5px white solid;
+    color: rgb(107, 95, 160);
+ }
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box2 h1{
+    font-size: 80px;
+}
+
+#box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 120px;
+    color: white;
+    border: 5px white solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(4px);
+    padding: 10px;
+}
+
+#box4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+}
+
+#box4 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+#box5{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#box5 img{
+    width: 200px;
+    border: 5px white solid;
+    border-radius: 10px;
+}
+
+#box6{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 90px;   
+}
